@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>fs.adl.oauth2.access.token.provider.type</name>
+    <value>ClientCredential</value>
+  </property>
+
+  <property>
+    <name>fs.adl.oauth2.refresh.url</name>
+    <value>YOUR_OAUTH2_TOKEN_ENDPOINT</value>
+  </property>
+
+  <property>
+    <name>fs.adl.oauth2.client.id</name>
+    <value>YOUR_OAUTH2_CLIENT_ID</value>
+  </property>
+
+  <property>
+    <name>fs.adl.oauth2.credential</name>
+    <value>YOUR_OAUTH2_CLIENT_SECRET</value>
+  </property>
+</configuration>
